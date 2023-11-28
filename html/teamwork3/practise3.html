@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teamworks</title>
+    <style>
+        .kisisel {
+            
+        }
+        .kisisel input {
+            display: inline-block;
+            width: 150px;
+            
+            
+        }
+        .kisisel label {
+            display: inline-block;
+            width: 20%;
+            
+        }
+
+    </style>
 </head>
 <body>
     <h1>ABC Tasarim Programi Kurulum ve Satis Sözlesmesi</h1>
@@ -22,13 +39,15 @@
     </fieldset>
 </div>
 <div>
-    <fieldset>
+    <fieldset class="kisisel"> 
         <legend>Kisisel bilgiler</legend>
+        <div>
         <label for="id">Form Güvenlik ID</label>
-        <input type="number" name="ID" id="id" placeholder="asdfgh">
+        <input type="number" name="ID" id="id" placeholder="asdfgh" >
+        </div>
         <br>
-        <label for="ad">Ad</label>
-        <input type="text" name="AD" id="ad">
+        <label for="ad">Ad </label>
+        <input type="text" name="AD" id="ad" >
         <br>
         <label for="soyad">Soyad</label>
         <input type="text" name="SOYAD" id="soyad">
@@ -38,7 +57,7 @@
         <br>
         <label for="email">Mail Adresi</label>
         <input type="email" name="email" id="email">
-        <br><label for="fotograf">Fotograf Ekle</label>
+        <br><label for="image">Fotograf Ekle</label>
         <input type="submit" value="Dosya Sec">Dosya secilemedi
     </fieldset>
 </div>
@@ -55,14 +74,16 @@
         <input type="radio" name="10yil" id="10yil">11-15 yil <br>
         <input type="radio" name="15yil" id="15yil">15-üzeri
         <br>
-        <label for="diller">Programlama Dilleri</label>
-        <textarea name="diller" id="diller" cols="10" rows="5">
-        C#
-        PHP
-        Java
-        Java
-        Javascript
-        </textarea>
+        <label for="dil">Programlama Dilleri</label>
+        <select name="dil" id="dil" size="4">
+        <option value="C#">C#</option>
+        <option value="PHP">PHP</option>
+        <option value="Java">Java</option>
+        <option value="Java">Java</option>
+        <option value="Javascript">Javascript</option>
+    </select>
+        
+     
         
 </fieldset>
 </div>
