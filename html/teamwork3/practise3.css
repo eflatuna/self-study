@@ -1,0 +1,57 @@
+.kisisel label,
+.kisisel input {
+
+display: inline-block;
+margin-bottom: 5px;
+
+
+}
+
+.kisisel input{
+width: 35%;
+
+    
+}
+
+.kisisel label{
+width: 35%;   
+
+}
+.kisisel div{
+    width: 70%;
+
+}
+.kisisel .yas{
+    width:15%;
+}
+.kisisel .dosya{
+    width:80px;
+    margin-right:5px;
+}
+.diger label,
+.diger input,
+.diger select{
+
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.diger div{
+    width: 70%;
+}
+.diger label{
+    
+    width: 50%;
+
+}
+
+.diger .radio-button-area{
+    display: inline-block;
+    
+    width: 30%;
+}
+
+.diger select{
+
+width: 30%;
+}

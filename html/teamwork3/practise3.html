@@ -4,23 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teamworks</title>
-    <style>
-        .kisisel {
-            
-        }
-        .kisisel input {
-            display: inline-block;
-            width: 150px;
-            
-            
-        }
-        .kisisel label {
-            display: inline-block;
-            width: 20%;
-            
-        }
+    <link rel="stylesheet" href="./practise3.css">
 
-    </style>
 </head>
 <body>
     <h1>ABC Tasarim Programi Kurulum ve Satis Sözlesmesi</h1>
@@ -44,36 +29,40 @@
         <div>
         <label for="id">Form Güvenlik ID</label>
         <input type="number" name="ID" id="id" placeholder="asdfgh" >
-        </div>
-        <br>
+        
         <label for="ad">Ad </label>
         <input type="text" name="AD" id="ad" >
-        <br>
+        
         <label for="soyad">Soyad</label>
         <input type="text" name="SOYAD" id="soyad">
-        <br>
+        
         <label for="yas">Yas</label>
-        <input type="number" name="YAS" id="yas">
+        <input class="yas" type="number" name="YAS" id="yas" >
         <br>
+        
         <label for="email">Mail Adresi</label>
         <input type="email" name="email" id="email">
-        <br><label for="image">Fotograf Ekle</label>
-        <input type="submit" value="Dosya Sec">Dosya secilemedi
+
+        <label for="image">Fotograf Ekle</label>
+        <input class="dosya"  type="submit" value="Dosya Sec">Dosya secilmedi
+    </div>
     </fieldset>
 </div>
 <div>
-    <fieldset>
+    <fieldset class="diger">
+        <div>
         <legend>Diger Bilgiler</legend>
         <h4>Buradaki alanlar mesleki deneyimi kapsar</h4>
         <label for="date">Sektöre Giris Tarihi</label>
         <input type="date" name="DATE"id=date>
-        <br>
+        
         <label>Sektör Deneyimi</label>
-        <input type="radio" name="yil" value="yil">1-5 yil <br>
-        <input type="radio" name="5yil" value="5yil">6-10 yil <br>
-        <input type="radio" name="10yil" id="10yil">11-15 yil <br>
-        <input type="radio" name="15yil" id="15yil">15-üzeri
-        <br>
+        <div class="radio-button-area">
+        <input type="radio" name="yil" value="yil" id="yil"> <span>1-5 yil</span><br>
+        <input type="radio" name="5yil" value="5yil"><span>6-10 yil</span> <br>
+        <input type="radio" name="10yil" id="10yil"><span>11-15 yil</span> <br>
+        <input type="radio" name="15yil" id="15yil"><span>15-üzeri</span><br>
+    </div>
         <label for="dil">Programlama Dilleri</label>
         <select name="dil" id="dil" size="4">
         <option value="C#">C#</option>
@@ -82,8 +71,9 @@
         <option value="Java">Java</option>
         <option value="Javascript">Javascript</option>
     </select>
+</div>
         
-     
+        
         
 </fieldset>
 </div>
@@ -97,10 +87,10 @@
 <div>
     <fieldset>
         <legend>Mail Listesi</legend>
-        <label for="">Mail listesine katilmak istiyorum </label>
+        <label for="">Mail listesine katilmak <strong>istiyorum</strong>  </label>
         <input type="radio"> 
         <br>
-        <label for="">Mail listesine katilmak <ins>istemiyorum</ins> </label>
+        <label for="">Mail listesine katilmak <ins> <strong>istemiyorum</strong>   </ins> </label>
         <input type="radio"> 
     </fieldset>
 </div>
