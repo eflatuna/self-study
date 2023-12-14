@@ -27,6 +27,8 @@
 
 .foto {
 	margin-left: 10px;
+	position: relative;
+	
 }
 
 .foto img {
@@ -34,6 +36,7 @@
 	max-width: 100%;
 	border-radius: 10px;
 	box-shadow:0 0 1rem black;
+	
 }
 
 .foto2 {
@@ -58,6 +61,19 @@
 
 .container p {
     padding: 1rem;
+}
+
+span{
+	writing-mode:vertical-rl;
+	text-orientation: mixed;
+	font-size: xx-small;
+	position: absolute;
+	top: 2px;
+	right: 1px;
+	padding: 2px;
+	
+	
+	
 }
 
 @media screen and (max-width:576px) {
